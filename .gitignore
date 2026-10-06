@@ -1,0 +1,9 @@
+build/
+boot/BOOTX64.EFI
+boot/*.obj
+BingoOS.img
+BingoOS.iso
+OVMF_VARS.fd
+isoroot/
+.vscode/
+.DS_Store
