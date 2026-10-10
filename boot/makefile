@@ -4,7 +4,8 @@ CFLAGS = --target=x86_64-pc-windows-msvc \
 		 -ffreestanding \
 		 -fno-stack-protector \
 		 -mno-red-zone \
-		 -Iefi
+		 -Iefi \
+		 -I ../include
 LDFLAGS = /subsystem:efi_application \
 		  /entry:efi_main \
 		  /nodefaultlib \
